@@ -1,0 +1,502 @@
+body {
+  padding: 0px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "roboto";
+}
+.header-button {
+  background-color: #4643d5;
+  border-radius: 12px;
+  border-width: 0px;
+  color: white;
+  height: 40px;
+  width: 200px;
+}
+.header-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+}
+.nav-image {
+  height: 40px;
+  width: 40px;
+}
+.logo-heading {
+  font-size: 20px;
+  color: black;
+  font-family: "roboto";
+  text-align: left;
+}
+.logo-container {
+  display: flex;
+  background-color: #ffffff;
+}
+.logos {
+  height: 60px;
+  width: 60px;
+}
+.tm-heading {
+  font-size: 8px;
+  color: #000000;
+}
+.second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-container1 {
+  background-image: url("./photos/image1.png");
+  background-color: rgba(211, 211, 211, 0.6); /* Grey overlay */
+  background-blend-mode: overlay;
+  padding: 80px;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-container-heading {
+  color: black;
+  font-family: "roboto";
+  font-size: 40px;
+}
+.span-heading {
+  font-weight: bold;
+  font-style: italic;
+}
+.span-heading-2 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.second-container-button {
+  background-color: #4643d5;
+  border-radius: 160px;
+  border-width: 0px;
+  color: white;
+  height: 70px;
+  width: 380px;
+  font-size: 20px;
+}
+.right-arrow {
+  height: 50px;
+  width: 50px;
+}
+.footer {
+  text-align: center;
+}
+.copyright {
+  border-radius: 13px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  margin: 0px;
+}
+.text-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-container {
+  height: 100vh;
+}
+.fourth-container {
+  height: 85vh;
+  background-image: url("./photos/Spacio\ TechTonics\ Consultancy\ V21.png");
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  width: 100%;
+}
+.excep-text {
+  text-align: center;
+  color: #ffffff;
+}
+.copyright1 {
+  border-radius: 13px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 0px;
+}
+.footer1 {
+  color: #ffffff;
+}
+.fifth-container1 {
+  height: 87vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fifth-container {
+  height: 80vh;
+  padding: 40px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.map-image {
+  height: 495px;
+  width: 495px;
+}
+.bottom-cont1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+}
+.bottom-sub-cont {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-img {
+  display: flex;
+}
+.row-info-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+}
+.row-col-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.third-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 80vh;
+}
+.sixth-container {
+  height: 80vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sixth-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.image-main-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.image-sub-cont {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 70vh;
+  margin: 10px;
+}
+.seventh-container {
+  height: 80vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data-cont {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+  border-radius: 20px;
+  height: 320px;
+  width: 17vw;
+  padding: 12px;
+}
+.arr-conts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+  font-size: 25px;
+  margin: 20px;
+}
+.one {
+  width: 75vw;
+  background-image: url("./photos/image1.png");
+  background-size: cover;
+  height: 70vh;
+}
+.two {
+  width: 25vw;
+  background-image: url("./photos/image1.png");
+  background-size: cover;
+  height: 70vh;
+}
+.red {
+  color: red;
+  font-weight: bold;
+}
+.shadow {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Dark shadow */
+  border-radius: 12px;
+  text-align: center;
+}
+.para {
+  width: 100%;
+}
+.some-size {
+  width: 20vw;
+}
+.date-cont {
+  display: flex;
+  justify-content: flex-end;
+  width: 18vw;
+}
+.in-head {
+  border: 5px solid #000000;
+  border-style: solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.insights-cont {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rows-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* General Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logos-container {
+  display: flex;
+  align-items: center;
+}
+
+.logos-container h1 {
+  margin-left: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.nav-container {
+  display: flex;
+}
+.nav-container a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.menu-icon img {
+  width: 20px;
+}
+
+.main-container {
+  background-image: url("photos/Spacio\ TechTonics\ Consultancy\ V21.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 50px;
+  color: white;
+  text-align: left;
+}
+
+.main-heading {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.contact-info,
+.career-link {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.career-link a {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.social-container {
+  margin-top: 50px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.newsletter {
+  margin-top: 50px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+}
+
+.newsletter-form {
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 14px;
+}
+/* Footer Styles */
+.foots {
+  background-color: #000; /* Black background */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.foots-section {
+  text-align: left;
+}
+
+.logo-sec img {
+  width: 100px;
+}
+
+.logo-sec p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.links-sec h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.links-sec ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-sec li {
+  margin: 5px 0;
+}
+
+.links-sec a {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links-sec a:hover {
+  text-decoration: underline;
+}
+
+.contact-sec {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-sec h3 {
+  margin-bottom: 10px;
+}
+
+.call-icon {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.foots-bottom {
+  background-color: #000;
+  color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.foots-bottom a {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.foots-bottom a:hover {
+  text-decoration: underline;
+}
